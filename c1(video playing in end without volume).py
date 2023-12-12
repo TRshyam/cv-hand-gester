@@ -8,7 +8,7 @@ gestureThreshold = 300
 folderPath = "Presentation"
 
 # Camera Setup
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture(1)
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
@@ -162,4 +162,3 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
-
